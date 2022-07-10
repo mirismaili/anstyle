@@ -1,0 +1,31 @@
+{
+  "name": "anstyle",
+  "version": "1.0.0",
+  "description": "A very simple utility to change colors and styles of command line outputs (logs)",
+  "keywords": [
+    "command-line",
+    "terminal",
+    "CLI",
+    "CLI-colors",
+    "CLI-colors-and-styles",
+    "ANSI-colors",
+    "ANSI-colors-and-styles"
+  ],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mirismaili/anstyle"
+	},
+	"license": "MIT",
+	"author": "S. Mahdi Mir-Ismaili <s.m.mirismaili@gmail.com>",
+	"type": "module",
+	"main": "src/main.js",
+	"files": [
+		"src"
+	],
+	"scripts": {},
+	"dependencies": {},
+	"devDependencies": {},
+	"engines": {
+		"node": ">=16"
+	}
+}
