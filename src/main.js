@@ -2,11 +2,11 @@
  * @author <a href="https://mirismaili.github.io">S. Mahdi Mir-Ismaili</a>.
  * Created on 1397/12/26 (2019/3/17).
  *
- * See: https://en.wikipedia.org/wiki/ANSI_escape_code
+ * Colors and styles by {@link https://stackoverflow.com/users/632524/bodi0 @bodi0}:
+ *   {@link https://stackoverflow.com/a/41407246/5318303}
+ *
+ * @see: {@link https://en.wikipedia.org/wiki/ANSI_escape_code}
  */
-  
-  // Colors and styles by [bodi0](https://stackoverflow.com/users/632524/bodi0):
-  //      https://stackoverflow.com/a/41407246/5318303
 
 export const RESET      =  '\x1b[0m';
 export const BRIGHT     =  '\x1b[1m';
