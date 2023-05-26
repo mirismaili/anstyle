@@ -1,6 +1,6 @@
 {
   "name": "anstyle",
-  "version": "1.0.0",
+  "version": "2.0.3",
   "description": "A very simple utility to change colors and styles of command line outputs (logs)",
   "keywords": [
     "command-line",
@@ -11,21 +11,26 @@
     "ANSI-colors",
     "ANSI-colors-and-styles"
   ],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/mirismaili/anstyle"
-	},
-	"license": "MIT",
-	"author": "S. Mahdi Mir-Ismaili <s.m.mirismaili@gmail.com>",
-	"type": "module",
-	"main": "src/main.js",
-	"files": [
-		"src"
-	],
-	"scripts": {},
-	"dependencies": {},
-	"devDependencies": {},
-	"engines": {
-		"node": ">=16"
-	}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirismaili/anstyle"
+  },
+  "license": "MIT",
+  "author": "S. Mahdi Mir-Ismaili <s.m.mirismaili@gmail.com>",
+  "type": "module",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "patch-version": "npm version patch --no-git-tag-version",
+    "increase-minor-version": "npm version minor --no-git-tag-version",
+    "increase-major-version": "npm version major --no-git-tag-version",
+    "tag-this-version": "node -e \"require('child_process').execSync('git tag v' + require('./package.json').version)\""
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16"
+  }
 }
