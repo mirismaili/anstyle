@@ -39,6 +39,4 @@ console.log(`This ${D}is a ${B}rich${N} and ${R}colorful ${G}text${T}.`)
 
 ## API reference
 
-The source is very simple and illustrative. It's your document:
-
-[main.js](https://github.com/mirismaili/anstyle/blob/main/src/main.js)
+The source is very simple and illustrative. It's your document: [main.ts](https://github.com/mirismaili/anstyle/blob/main/src/main.ts)
